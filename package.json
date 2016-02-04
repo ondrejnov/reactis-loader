@@ -1,0 +1,20 @@
+{
+  "name": "reactis-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src --optional runtime --out-dir lib"
+  },
+  "directories": {
+    "src": "src/"
+  },
+  "author": "Ondrej Novak",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "react": "^0.14.6",
+    "react-bootstrap": "^0.28.2",
+    "react-pure-render": "^1.0.2"
+  }
+}
